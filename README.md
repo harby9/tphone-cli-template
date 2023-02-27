@@ -1,1 +1,1 @@
-# tphone-tphone-cli
+tphone-cli
