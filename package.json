@@ -1,0 +1,18 @@
+{
+  "name": "tphone",
+  "version": "1.0.0",
+  "description": "tphone project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tphone",
+    "yjpl"
+  ],
+  "author": "hanzhimin@ygsoft.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harby9/tphone-cli"
+  }
+}
