@@ -139,9 +139,9 @@
   },
   "vuePlugins": {
     "service": [
-      "node_modules/@dcloudio/core/lib/vue-cli-plugin-hbuilderx",
-      "node_modules/@dcloudio/core/lib/vue-cli-plugin-uni",
-      "node_modules/@dcloudio/core/lib/vue-cli-plugin-uni-optimize"
+      "node_modules/@dcloudio/vue-cli-plugin-hbuilderx",
+      "node_modules/@dcloudio/vue-cli-plugin-uni",
+      "node_modules/@dcloudio/vue-cli-plugin-uni-optimize"
     ]
   }
 }
