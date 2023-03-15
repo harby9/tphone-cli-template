@@ -43,16 +43,17 @@
     "test:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin jest -i"
   },
   "dependencies": {
+    "@tphone-beta/core": "^1.0.0",
     "@vue/shared": "^3.0.0",
     "core-js": "^3.6.5",
     "flyio": "^0.6.2",
     "postcss": "^7.0.7",
+    "postcss-comment": "^2.0.0",
     "postcss-import": "^12.0.1",
-    "postcss-value-parser": "^3.3.1",
+    "postcss-px-to-viewport": "^1.1.1",
     "postcss-selector-parser": "^6.0.2",
     "postcss-urlrewrite": "^0.2.2",
-    "postcss-comment": "^2.0.0",
-    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-value-parser": "^3.3.1",
     "regenerator-runtime": "^0.12.1",
     "vue": "^2.6.11",
     "vuex": "^3.2.0"
