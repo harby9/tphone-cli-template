@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "types": [
-      "@tphone-beta/core/lib/types",
+      "@dcloudio/types",
       "miniprogram-api-typings",
       "mini-types"
     ]

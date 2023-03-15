@@ -18,7 +18,7 @@ const config = {
     require('autoprefixer')({
       remove: process.env.UNI_PLATFORM !== 'h5'
     }),
-    require('@tphone-beta/core/lib/vue-cli-plugin-uni/packages/postcss')
+    require('@dcloudio/vue-cli-plugin-uni/packages/postcss')
   ]
 }
 if (webpack.version[0] > 4) {

@@ -1,4 +1,4 @@
-# tphone-demo
+# cli-template
 
 ## Project setup
 ```
