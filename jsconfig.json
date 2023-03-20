@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "types": [
-      "@tphone-beta/core/lib/types",
+      "@tphone/core/lib/types",
       "miniprogram-api-typings",
       "mini-types"
     ]

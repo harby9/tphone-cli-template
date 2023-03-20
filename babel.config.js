@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const plugins = []
 
 if (process.env.UNI_OPT_TREESHAKINGNG) {
-  plugins.push(require('@tphone-beta/core/lib/vue-cli-plugin-uni-optimize/packages/babel-plugin-uni-api/index.js'))
+  plugins.push(require('@tphone/core/lib/vue-cli-plugin-uni-optimize/packages/babel-plugin-uni-api/index.js'))
 }
 
 if (
@@ -24,7 +24,7 @@ if (
   const input = normalizePath(process.env.UNI_INPUT_DIR)
   try {
     plugins.push([
-      require('@tphone-beta/core/lib/vue-cli-plugin-hbuilderx/packages/babel-plugin-console'),
+      require('@tphone/core/lib/vue-cli-plugin-hbuilderx/packages/babel-plugin-console'),
       {
         file (file) {
           file = normalizePath(file)
@@ -38,7 +38,7 @@ if (
   } catch (e) { }
 }
 
-process.UNI_LIBRARIES = process.UNI_LIBRARIES || ['@tphone-beta/core/lib/uni-ui']
+process.UNI_LIBRARIES = process.UNI_LIBRARIES || ['@tphone/core/lib/uni-ui']
 process.UNI_LIBRARIES.forEach(libraryName => {
   plugins.push([
     'import',
@@ -68,7 +68,7 @@ const config = {
   plugins
 }
 
-const UNI_H5_TEST = '**/@tphone-beta/core/lib/uni-h5/dist/index.umd.min.js'
+const UNI_H5_TEST = '**/@tphone/core/lib/uni-h5/dist/index.umd.min.js'
 if (process.env.NODE_ENV === 'production') {
   config.overrides = [{
     test: UNI_H5_TEST,
