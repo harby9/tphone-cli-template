@@ -46,12 +46,12 @@
     "test:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin jest -i"
   },
   "dependencies": {
-    "@tphone/core": "^2.0.1",
+    "@tphone/core": "^1.0.0",
     "@vue/shared": "^3.0.0",
     "core-js": "^3.6.5",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
-    "vue": "^2.6.11",
+    "vue": ">= 2.6.14 < 2.7",
     "vuex": "^3.2.0"
   },
   "devDependencies": {
@@ -66,7 +66,7 @@
     "postcss": "^7.0.7",
     "postcss-comment": "^2.0.0",
     "postcss-import": "^12.0.1",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": ">= 2.6.14 < 2.7"
   },
   "browserslist": [
     "Android >= 4",

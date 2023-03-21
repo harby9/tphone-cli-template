@@ -39,7 +39,7 @@ pnpm link @tphone/core -g
 
 ### 启动服务
 ```
-npm run serve
+npm run serve-link
 ```
 
 ### Customize configuration
