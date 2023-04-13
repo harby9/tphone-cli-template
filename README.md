@@ -1,4 +1,4 @@
-# tphone-demo
+# tphone-cli-template#main-branch
 
 ## Project setup
 ```
